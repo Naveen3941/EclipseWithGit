@@ -1,0 +1,12 @@
+package com.example.service;
+
+import com.example.model.Customer;
+
+public class CustomerService {
+
+	public String saveAll(Customer customer) {
+		
+		return null;
+	}
+
+}
