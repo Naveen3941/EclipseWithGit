@@ -17,6 +17,7 @@ private CustomerService customerService;
 		"application/xml", "application/json" })
 public String saveAll(@RequestBody Customer customer)
 {
+	System.out.println("Succesfully Inserted...");
 	return customerService.saveAll(customer);
 }
 
